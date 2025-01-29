@@ -1,0 +1,251 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url(https://wallpapertag.com//wallpaper/full/0/6/3/49612-mountains-wallpaper-1920x1080-for-android-40.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background: #3b9c9c;
+}
+::-moz-selection {
+  background: #3b9c9c;
+}
+::-webkit-selection {
+  background: #3b9c9c;
+}
+
+::-webkit-input-placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+:-moz-placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+::-moz-placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+:-ms-input-placeholder {
+  color: #aaa !important;
+  font-style: italic;
+}
+
+br {
+  display: block;
+  line-height: 2.2em;
+}
+
+h1 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  letter-spacing: -0.05em;
+  color: #2c3e50;
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1:before, h1:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  height: 2px;
+  background: #3498db;
+  transform: translateY(-50%);
+}
+
+h1:before {
+  left: -35%;
+}
+h1:after {
+  right: -35%;
+}
+
+h1 > span {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  color: #fff;
+}
+
+p {
+  font-size: 1.4em;
+  line-height: 1.6em;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+a:hover {
+  text-decoration: underline;
+  color: #2980b9;
+}
+
+.center {
+  display: block;
+  text-align: center;
+}
+
+#w {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+#content {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 25px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+#searchfield {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+#searchfield form {
+  display: inline-block;
+  background: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#searchfield form .biginput {
+  width: 600px;
+  height: 45px;
+  padding: 0 15px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #333;
+  font-size: 1.2em;
+  transition: all 0.3s ease;
+}
+
+#searchfield form .biginput:focus {
+  border-color: #3498db;
+  color: #333;
+}
+
+.flatbtn {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background-color: #3498db;
+  padding: 12px 22px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flatbtn:hover {
+  background-color: #2980b9;
+}
+
+.flatbtn:active {
+  box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+td, th {
+  vertical-align: top;
+}
+
+@media (max-width: 768px) {
+  body {
+      font-size: 16px;
+  }
+
+  h1 {
+      font-size: 2em;
+  }
+
+  #w {
+      width: 90%;
+  }
+
+  #searchfield form .biginput {
+      width: 80%;
+  }
+
+  #content {
+      padding: 20px 15px;
+  }
+
+  p {
+      font-size: 1.2em;
+  }
+
+  .flatbtn {
+      font-size: 1em;
+      padding: 10px 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+      font-size: 14px;
+  }
+
+  h1 {
+      font-size: 1.5em;
+  }
+
+  #w {
+      width: 95%;
+  }
+
+  #searchfield form .biginput {
+      width: 100%;
+  }
+
+  #content {
+      padding: 15px 10px;
+  }
+
+  p {
+      font-size: 1em;
+  }
+
+  .flatbtn {
+      font-size: 0.9em;
+      padding: 8px 16px;
+  }
+
+  h1:before, h1:after {
+      width: 20%;
+      left: -20%;
+      right: -20%;
+  }
+  
+}
