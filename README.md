@@ -8,6 +8,8 @@
 
 Bu proje, arama motorlarından ve e-ticaret sitelerinden öneri almak için basit ve verimli bir web uygulaması sunar.
 
+Test etmek için : https://ibosta.tech/kelime
+
 ### 🛠️ **Gereksinimler**
 - **HTML5** 🌐
 - **CSS3** 🎨
